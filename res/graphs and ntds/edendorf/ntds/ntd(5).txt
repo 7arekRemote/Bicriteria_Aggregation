@@ -1,0 +1,7 @@
+c #Nodes #JoinNodes tw
+ntd 5 0 1
+b 1 l
+b 2 6618 i 6618 1
+b 3 8341 6618 i 8341 2
+b 4 8341 f 6618 3
+b 5 f 8341 4

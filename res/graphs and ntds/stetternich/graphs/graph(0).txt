@@ -1,0 +1,6 @@
+c #vertices #edges weightDimension idOffset
+mincutGraph 1 0 2 569
+c u v weight[0] weight[1] ...
+s t 0.0 0.0
+s 3631 0.0 10.331827916341279
+t 3631 13.159121557149565 7.368779110069241
