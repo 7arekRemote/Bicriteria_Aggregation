@@ -47,7 +47,7 @@ java -jar -Xmx100g "target/Bicriteria_Aggregation-1.0.jar" --dataset "res/graphs
 ## Precomputed Tree Decompositions
 For all available datasets, we precomputed tree decompositions, which are stored under 'res/graphs and ntds/'. These are automatically used by the algorithm.
 
-For some datasets, the included tree decomposition is exactly the one selected by our algorithm as the best one (for the final version) after running 16 hours of tree decomposition generation – as described in the paper.
+For some datasets, the included tree decomposition is exactly the one selected by our algorithm as the best one (for the final version) after running exactly 1 hour of tree decomposition generation using 16 threads – as described in the paper.
 This applies to the datasets osterloh, ahrem, hambach, schobuell, bockelskamp, lottbek, sabbenhausen, gevenich, duengenheim, butzweiler, norheim, stetternich, erlenbach, berga, kelberg, groebzig, bokeloh, heiligenhaus, hillesheim, riesheim, siersdorf, erp, gruppe8, goddula.
 
 For all other datasets, the decomposition included is simply the first one we generated.
