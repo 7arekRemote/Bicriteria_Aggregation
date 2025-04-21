@@ -6,16 +6,18 @@ This repository contains the Java implementation of our bicriteria aggregation a
 
 - Java 21 (recommended).  
   The code may also compile and run with lower versions, but this has not been tested.
-- Maven (for dependency and build management)
+- Optional: Maven (for dependency and build management)
 
 ## Building
 
-Clone the repository and run:
+A pre-built .jar file is included in the target/ directory, so it is not necessary to have Maven installed in order to run the tool.
+
+If you wish to build the project yourself (e.g., after modifying the code), you can do so using Maven. Clone the repository and run:
 
 ```bash
-mvn package
+mvn clean package
 ```
-This creates a runnable .jar file in the target/ directory.
+This will produce a fresh .jar file in the target/ directory.
 
 ## Running
 You can run the program using:
