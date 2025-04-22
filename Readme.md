@@ -10,14 +10,15 @@ This repository contains the Java implementation of our bicriteria aggregation a
 
 ## Building
 
-A pre-built .jar file is included in the target/ directory, so it is not necessary to have Maven installed in order to run the tool.
-
-If you wish to build the project yourself (e.g., after modifying the code), you can do so using Maven. Clone the repository and run:
+To build the project yourself, clone the repository and use Maven:
 
 ```bash
 mvn clean package
 ```
-This will produce a fresh .jar file in the target/ directory.
+
+This will generate a new .jar file in the target/ directory.
+
+If you prefer not to build the project manually, a pre-built .jar file is already included in the target/ directory. Maven is not required to run the tool in this case.
 
 ## Running
 You can run the program using:
